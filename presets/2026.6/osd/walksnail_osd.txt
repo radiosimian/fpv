@@ -14,19 +14,26 @@
 #$ DESCRIPTION: - Flight mode and arming status
 #$ DESCRIPTION: - Flight timer (Timer 2)
 #$ DESCRIPTION: - Altitude
-#$ DESCRIPTION: - Craft name and disarmed indicator
+#$ DESCRIPTION: - Disarmed indicator
 #$ DESCRIPTION: - Blackbox log status
+#$ DESCRIPTION:
+#$ DESCRIPTION: Three OSD profiles are inluded:
+#$ DESCRIPTION: 1: All OSD elements
+#$ DESCRIPTION: 2: Minimal set of elements
+#$ DESCRIPTION: 3: Zen mode (warnings only)
 #$ DESCRIPTION:
 #$ DESCRIPTION: Configures MSP DisplayPort and HD video system for Walksnail.
 #$ DESCRIPTION: Apply, then check your UART port is set to VTX (MSP + DisplayPort).
- 
+
 # MSP DisplayPort and HD canvas for Walksnail Avatar
 set osd_displayport_device = MSP
 set vcd_video_system = HD
- 
+set osd_canvas_width = 53
+set osd_canvas_height = 20
+
 # RSSI dBm alarm threshold
 set osd_rssi_dbm_alarm = -96
- 
+
 # OSD element positions
 set osd_vbat_pos = 2563
 set osd_link_quality_pos = 7660
@@ -41,12 +48,6 @@ set osd_altitude_pos = 6211
 set osd_avg_cell_voltage_pos = 6627
 set osd_disarmed_pos = 6485
 set osd_log_status_pos = 3247
- 
+
 # Stats shown on post-flight summary screen
 set osd_stat_bitmask = 8476652
- 
-#$ OPTION BEGIN (UNCHECKED): Set craft name to radiosimian
-set craft_name = CHONK20
-set pilot_name = radiosimian
-#$ OPTION END
-
