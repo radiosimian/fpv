@@ -1,5 +1,5 @@
 #$ TITLE: Walksnail HD OSD Layout - radiosimian
-#$ FIRMWARE_VERSION: 2026.6.1
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: osd, walksnail, avatar, hd, msp, displayport, layout, radiosimian
