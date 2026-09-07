@@ -28,3 +28,7 @@ presets/
         └── walksnail_osd.txt
 ```
 
+For more information on Betaflight Presets check https://github.com/betaflight/firmware-presets/blob/master/README.md
+
+NB: Never hand-edit index.json on a real project. Run node indexer/indexer.js from the official repo's tooling and it generates it with the correct formatting.
+
