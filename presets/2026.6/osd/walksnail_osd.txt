@@ -28,8 +28,6 @@
 # MSP DisplayPort and HD canvas for Walksnail Avatar
 set osd_displayport_device = MSP
 set vcd_video_system = HD
-set osd_canvas_width = 53
-set osd_canvas_height = 20
 
 # RSSI dBm alarm threshold
 set osd_rssi_dbm_alarm = -96
