@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Walksnail HD OSD Layout - radiosimian",
+    "firmwareVersion": "2026.6.1",
+    "category": "OSD",
+    "status": "COMMUNITY",
+    "keywords": ["osd", "walksnail", "avatar", "hd", "msp", "displayport", "layout", "radiosimian"],
+    "author": "radiosimian",
+    "description": "HD OSD layout for Walksnail Avatar via MSP DisplayPort. Includes battery, current, link quality, RSSI, throttle, flight mode, timer, altitude, craft name and blackbox log status.",
+    "path": "presets/4.6/osd/walksnail_osd_chonk20.txt"
+  }
+]

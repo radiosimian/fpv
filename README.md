@@ -1,10 +1,30 @@
-# Overview
+# Betaflight Custom Presets — radiosimian
 
-This is a simple repo housing FPV-related files. These will include BetaFlight presets and more.
+This is the `bf-presets` branch of the [fpv](https://github.com/radiosimian/fpv) repo.
+It contains personal Betaflight presets and is not intended for the official preset repo.
 
-## BetaFlight Presets
-This is a Monorepo with a separate branch (repo: radiosimian/fpv, branch: bf-presets)
+## Adding as a custom source in Betaflight Configurator
 
-The branch has a different file structure from main, with just the preset repo layout at its root. Betaflight points at that branch specifically. Other FPV stuff lives on main as normal. This is actually the approach the official docs suggest for custom sources.
+1. Open Betaflight Configurator and go to **Presets**
+2. Click **Preset Sources** (top right)
+3. Add a new source:
+   - **URL:** `https://github.com/radiosimian/fpv`
+   - **Branch:** `bf-presets`
+4. Click **Save** — your presets will appear in the search list alongside official ones
 
+## Presets
+
+| Title | Category | BF Version | Notes |
+|---|---|---|---|
+| Walksnail HD OSD Layout - radiosimian | OSD | 2026.6.1 | MSP DisplayPort, HD canvas |
+
+## Structure
+
+```
+index.json                          ← preset catalogue (read by Configurator)
+presets/
+└── 4.6/
+    └── osd/
+        └── walksnail_osd_chonk20.txt
+```
 
