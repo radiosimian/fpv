@@ -23,8 +23,8 @@ It contains personal Betaflight presets and is not intended for the official pre
 ```
 index.json                          ← preset catalogue (read by Configurator)
 presets/
-└── 4.6/
+└── 2026.6/
     └── osd/
-        └── walksnail_osd_chonk20.txt
+        └── walksnail_osd.txt
 ```
 
