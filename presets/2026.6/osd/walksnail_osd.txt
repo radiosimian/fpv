@@ -23,6 +23,9 @@
 #$ DESCRIPTION: 3: Zen mode (warnings only)
 #$ DESCRIPTION:
 #$ DESCRIPTION: Configures MSP DisplayPort and HD video system for Walksnail.
+#$ DESCRIPTION:
+#$ DESCRIPTION: Requires Betaflight 2026.6 or later. Ensure Digital OSD protocol is selected when flashing firmware
+#$ DESCRIPTION:
 #$ DESCRIPTION: Apply, then check your UART port is set to VTX (MSP + DisplayPort).
 
 # MSP DisplayPort and HD canvas for Walksnail Avatar
