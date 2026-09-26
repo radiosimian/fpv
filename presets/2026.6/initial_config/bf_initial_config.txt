@@ -1,4 +1,4 @@
-#$ TITLE: 2-inch 2S Base (from Tango20)
+#$ TITLE: Betaflight Initial Config
 #$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
