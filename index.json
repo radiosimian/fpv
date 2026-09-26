@@ -141,8 +141,7 @@
       "TUNE"
     ],
     "author": [
-      "radiosimian",
-      "UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian"
+      "radiosimian"
     ],
     "keywords": [
       "2inch",
@@ -168,8 +167,8 @@
   "presets": [
     {
       "fullPath": "presets/2026.6/2-inch-tune/UAV_Tech_Micro.txt",
-      "hash": "f57a3e42e7a6b1c727178c079a5674adf483fa4deb9754a2fac68d9394117c81",
-      "title": "UAV Tech - Micro (2\" to 4\") [2026.6 port]",
+      "hash": "35fe04cbfde9f666e540ec251dc639ca4ce8d1488433ef86cd2c106d28a05d66",
+      "title": "UAV Tech Micro (2\" to 4\") [2026.6 port]",
       "firmware_version": [
         "2026.6"
       ],
@@ -185,7 +184,7 @@
         "4inch",
         "rpm filter"
       ],
-      "author": "UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian",
+      "author": "radiosimian",
       "force_options_review": true,
       "priority": 1000000000000
     },

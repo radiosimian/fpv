@@ -1,10 +1,10 @@
-#$ TITLE: UAV Tech - Micro (2" to 4") [2026.6 port]
+#$ TITLE: UAV Tech Micro (2" to 4") [2026.6 port]
 #$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: uav tech, mark spatz, micro, toothpick, 2inch, 3inch, 4inch, rpm filter
-#$ AUTHOR: UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian
-#$ DESCRIPTION: Personal 2026.6 port of the official "UAV Tech - Micro (2" to 4")" 2025.12 preset. Tune values unchanged.
+#$ AUTHOR: radiosimian
+#$ DESCRIPTION: Original Author UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian. Personal 2026.6 port of the official "UAV Tech - Micro (2" to 4")" 2025.12 preset. Tune values unchanged.
 #$ DESCRIPTION: Changes from the original: defaults are inlined from the official 2026.6 TUNE and FILTER defaults,
 #$ DESCRIPTION: so parameters removed in 2026.6 (acro_trainer_*, abs_control_*, transient_throttle_limit) are no longer set.
 #$ DESCRIPTION:
