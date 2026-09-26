@@ -141,24 +141,54 @@
       "TUNE"
     ],
     "author": [
-      "radiosimian"
+      "radiosimian",
+      "UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian"
     ],
     "keywords": [
       "2inch",
       "2S",
+      "3inch",
+      "4inch",
       "avatar",
       "config",
       "displayport",
       "hd",
       "layout",
+      "mark spatz",
       "micro",
       "msp",
       "osd",
       "radiosimian",
+      "rpm filter",
+      "toothpick",
+      "uav tech",
       "walksnail"
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2026.6/2-inch-tune/UAV_Tech_Micro.txt",
+      "hash": "f57a3e42e7a6b1c727178c079a5674adf483fa4deb9754a2fac68d9394117c81",
+      "title": "UAV Tech - Micro (2\" to 4\") [2026.6 port]",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "uav tech",
+        "mark spatz",
+        "micro",
+        "toothpick",
+        "2inch",
+        "3inch",
+        "4inch",
+        "rpm filter"
+      ],
+      "author": "UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
     {
       "fullPath": "presets/2026.6/initial_config/bf_initial_config.txt",
       "hash": "fb1d6a7ffee4143a54a5eeb133a983e6998f9959707bb75924b3ffc5d56da800",
