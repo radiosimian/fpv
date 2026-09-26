@@ -161,8 +161,8 @@
   "presets": [
     {
       "fullPath": "presets/2026.6/initial_config/bf_initial_config.txt",
-      "hash": "0298121cc7fa3e91f791b92f17d892c70d787b2c700e8c79c1b9dfda9d30b83a",
-      "title": "2-inch 2S Base (from Tango20)",
+      "hash": "a331a206a306de05769ae553e3a5af3469c9132da9f22b8bc7fb30939bea0a54",
+      "title": "Betaflight Initial Config",
       "firmware_version": [
         "2026.6"
       ],
