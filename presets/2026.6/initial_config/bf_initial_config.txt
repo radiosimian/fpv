@@ -1,8 +1,8 @@
-#$ TITLE: Betaflight Initial Config
+#$ TITLE: BF Initial Config 2S 2-inch - radiosimian
 #$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
-#$ KEYWORDS: 2inch, 2S, micro, walksnail, rpm filter
+#$ KEYWORDS: 2inch, 2S, micro, walksnail, config
 #$ AUTHOR: radiosimian
 #$ DESCRIPTION: Base configuration for 2S 2-inch builds, derived from Tango20 (GEPRC Taker F405 AIO).
 #$ DESCRIPTION: Board-specific settings are NOT included: UART/serial assignments, PINIO, acc calibration,

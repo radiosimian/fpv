@@ -147,6 +147,7 @@
       "2inch",
       "2S",
       "avatar",
+      "config",
       "displayport",
       "hd",
       "layout",
@@ -154,15 +155,14 @@
       "msp",
       "osd",
       "radiosimian",
-      "rpm filter",
       "walksnail"
     ]
   },
   "presets": [
     {
       "fullPath": "presets/2026.6/initial_config/bf_initial_config.txt",
-      "hash": "a331a206a306de05769ae553e3a5af3469c9132da9f22b8bc7fb30939bea0a54",
-      "title": "Betaflight Initial Config",
+      "hash": "fb1d6a7ffee4143a54a5eeb133a983e6998f9959707bb75924b3ffc5d56da800",
+      "title": "BF Initial Config 2S 2-inch - radiosimian",
       "firmware_version": [
         "2026.6"
       ],
@@ -173,7 +173,7 @@
         "2S",
         "micro",
         "walksnail",
-        "rpm filter"
+        "config"
       ],
       "author": "radiosimian",
       "priority": 1000000000000
