@@ -10,7 +10,6 @@
       "VTX": "VTX",
       "LEDS": "LEDS",
       "MODES": "MODES",
-      "RC_SMOOTHING": "RC_SMOOTHING",
       "FILTERS": "FILTERS",
       "RC_LINK": "RC_LINK",
       "BNF": "BNF",
@@ -48,7 +47,8 @@
       "OPTION_CHECKED": "(checked)",
       "OPTION_UNCHECKED": "(unchecked)",
       "BEGIN_OPTION_GROUP_DIRECTIVE": "option_group begin",
-      "END_OPTION_GROUP_DIRECTIVE": "option_group end"
+      "END_OPTION_GROUP_DIRECTIVE": "option_group end",
+      "EXCLUSIVE_OPTION_GROUP": "(exclusive)"
     },
     "PresetStatusEnum": [
       "OFFICIAL",
@@ -62,23 +62,74 @@
     "presetsDir": "presets",
     "presetsFileEncoding": "utf-8",
     "presetsFileMetadata": {
-      "title": { "type": "STRING", "optional": false },
-      "firmware_version": { "type": "STRING_ARRAY", "optional": false },
-      "category": { "type": "PRESET_CATEGORY", "optional": false },
-      "status": { "type": "PRESET_STATUS", "optional": false },
-      "author": { "type": "STRING", "optional": true },
-      "description": { "type": "STRING_ARRAY", "optional": true },
-      "include": { "type": "FILE_PATH_ARRAY", "optional": true },
-      "keywords": { "type": "WORDS_ARRAY", "optional": true },
-      "hidden": { "type": "BOOLEAN", "optional": true },
-      "discussion": { "type": "STRING", "optional": true },
-      "warning": { "type": "STRING", "optional": true },
-      "disclaimer": { "type": "STRING", "optional": true },
-      "include_warning": { "type": "FILE_PATH_ARRAY", "optional": true },
-      "include_disclaimer": { "type": "FILE_PATH_ARRAY", "optional": true },
-      "priority": { "type": "PRIORITY", "optional": true },
-      "force_options_review": { "type": "BOOLEAN", "optional": true },
-      "parser": { "type": "PARSER", "optional": true }
+      "title": {
+        "type": "STRING",
+        "optional": false
+      },
+      "firmware_version": {
+        "type": "STRING_ARRAY",
+        "optional": false
+      },
+      "category": {
+        "type": "PRESET_CATEGORY",
+        "optional": false
+      },
+      "status": {
+        "type": "PRESET_STATUS",
+        "optional": false
+      },
+      "author": {
+        "type": "STRING",
+        "optional": true
+      },
+      "description": {
+        "type": "STRING_ARRAY",
+        "optional": true
+      },
+      "include": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "keywords": {
+        "type": "WORDS_ARRAY",
+        "optional": true
+      },
+      "hidden": {
+        "type": "BOOLEAN",
+        "optional": true
+      },
+      "discussion": {
+        "type": "STRING",
+        "optional": true
+      },
+      "warning": {
+        "type": "STRING",
+        "optional": true
+      },
+      "disclaimer": {
+        "type": "STRING",
+        "optional": true
+      },
+      "include_warning": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "include_disclaimer": {
+        "type": "FILE_PATH_ARRAY",
+        "optional": true
+      },
+      "priority": {
+        "type": "PRIORITY",
+        "optional": true
+      },
+      "force_options_review": {
+        "type": "BOOLEAN",
+        "optional": true
+      },
+      "parser": {
+        "type": "PARSER",
+        "optional": true
+      }
     }
   },
   "uniqueValues": {
@@ -86,25 +137,50 @@
       "2026.6"
     ],
     "category": [
-      "OSD"
+      "OSD",
+      "TUNE"
     ],
     "author": [
       "radiosimian"
     ],
     "keywords": [
-      "osd",
-      "walksnail",
+      "2inch",
+      "2S",
       "avatar",
-      "hd",
-      "msp",
       "displayport",
+      "hd",
       "layout",
-      "radiosimian"
+      "micro",
+      "msp",
+      "osd",
+      "radiosimian",
+      "rpm filter",
+      "walksnail"
     ]
   },
   "presets": [
     {
+      "fullPath": "presets/2026.6/initial_config/bf_initial_config.txt",
+      "hash": "0298121cc7fa3e91f791b92f17d892c70d787b2c700e8c79c1b9dfda9d30b83a",
+      "title": "2-inch 2S Base (from Tango20)",
+      "firmware_version": [
+        "2026.6"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "2inch",
+        "2S",
+        "micro",
+        "walksnail",
+        "rpm filter"
+      ],
+      "author": "radiosimian",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/2026.6/osd/walksnail_osd.txt",
+      "hash": "bfbb940392dbab5473cf9c9f305f586e2c881cec273b002eb1c87af244f3afc2",
       "title": "Walksnail HD OSD Layout - radiosimian",
       "firmware_version": [
         "2026.6"
@@ -121,7 +197,8 @@
         "layout",
         "radiosimian"
       ],
-      "author": "radiosimian"
+      "author": "radiosimian",
+      "priority": 0
     }
   ]
 }
