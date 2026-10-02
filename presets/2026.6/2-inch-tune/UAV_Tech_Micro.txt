@@ -1,10 +1,10 @@
-#$ TITLE: UAV Tech Micro (2" to 4") [2026.6 port]
+#$ TITLE: UAV Tech - Micro (2" to 4") [2026.6 port]
 #$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
 #$ STATUS: EXPERIMENTAL
 #$ KEYWORDS: uav tech, mark spatz, micro, toothpick, 2inch, 3inch, 4inch, rpm filter
 #$ AUTHOR: radiosimian
-#$ DESCRIPTION: Original Author UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian. Personal 2026.6 port of the official "UAV Tech - Micro (2" to 4")" 2025.12 preset. Tune values unchanged.
+#$ DESCRIPTION: Original Author UAV Tech (Mark Spatz) - ported to 2026.6 by radiosimian.Personal 2026.6 port of the official "UAV Tech - Micro (2" to 4")" 2025.12 preset with some changes.
 #$ DESCRIPTION: Changes from the original: defaults are inlined from the official 2026.6 TUNE and FILTER defaults,
 #$ DESCRIPTION: so parameters removed in 2026.6 (acro_trainer_*, abs_control_*, transient_throttle_limit) are no longer set.
 #$ DESCRIPTION:
@@ -262,5 +262,14 @@ set pidsum_limit_yaw = 1000
 	set dyn_idle_min_rpm = 35
 	#$ OPTION END
 #$ OPTION_GROUP END
+
+#$ OPTION BEGIN (UNCHECKED): Disable Gyro LPF1 (RPM builds) - added by radiosimian
+# Takes the gyro filters off slider control so LPF1 stays off. Gyro LPF2 and the D-term slider are unchanged.
+# Only use with the RPM filter option ticked. Not needed with HIGH Build Quality, which already disables LPF1 and LPF2.
+set simplified_gyro_filter = OFF
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+#$ OPTION END
 
 simplified_tuning apply

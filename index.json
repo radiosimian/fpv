@@ -167,8 +167,8 @@
   "presets": [
     {
       "fullPath": "presets/2026.6/2-inch-tune/UAV_Tech_Micro.txt",
-      "hash": "35fe04cbfde9f666e540ec251dc639ca4ce8d1488433ef86cd2c106d28a05d66",
-      "title": "UAV Tech Micro (2\" to 4\") [2026.6 port]",
+      "hash": "1aaf69fe2be34c912b87815eabc0e1d6b91fb6492e10072fa9d0e60936fbcb09",
+      "title": "UAV Tech - Micro (2\" to 4\") [2026.6 port]",
       "firmware_version": [
         "2026.6"
       ],
@@ -190,7 +190,7 @@
     },
     {
       "fullPath": "presets/2026.6/initial_config/bf_initial_config.txt",
-      "hash": "fb1d6a7ffee4143a54a5eeb133a983e6998f9959707bb75924b3ffc5d56da800",
+      "hash": "0c74ea722e02e32619d33d1a41a86bf9300f0e3de66890cee06dd3451ee2f4c0",
       "title": "BF Initial Config 2S 2-inch - radiosimian",
       "firmware_version": [
         "2026.6"
