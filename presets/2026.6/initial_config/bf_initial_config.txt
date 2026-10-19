@@ -41,6 +41,10 @@ set roll_srate = 80
 set pitch_srate = 80
 set yaw_srate = 80
 
+# Add small delay for voltage sag warnings (1/10th second increments)
+set vbat_duration_for_warning = 10
+set vbat_duration_for_critical = 10
+
 # Pilot
 set pilot_name = radiosimian
 
